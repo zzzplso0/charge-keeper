@@ -54,7 +54,7 @@ dependencies {
 }
 
 tasks.named('bootRun') {
-	jwmArgs '-Duser.timezone=UTC'
+	jvmArgs '-Duser.timezone=UTC'
 }
 
 tasks.named('test') {
